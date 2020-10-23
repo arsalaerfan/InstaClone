@@ -25,9 +25,12 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/arsalaerfan/InstaClone/blob/master/instaClone.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='https://parsefiles.back4app.com/LLGSfImkbRefVajgEC7I7QAMx3y2YyzmiJ5mxlhd/24257dd85565b81818d7f4547508dd90_photo.jpg' height = '400' width = '300'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Dog picture downlowaded from database
+
+<img src='https://parsefiles.back4app.com/LLGSfImkbRefVajgEC7I7QAMx3y2YyzmiJ5mxlhd/24257dd85565b81818d7f4547508dd90_photo.jpg' height = '400' width = '300'/>
 
 
 ## Open-source libraries used
