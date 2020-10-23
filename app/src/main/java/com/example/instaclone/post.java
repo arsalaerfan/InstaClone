@@ -3,13 +3,14 @@ package com.example.instaclone;
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
+import com.parse.ParseUser;
 
 @ParseClassName("Post")
 public class post extends ParseObject {
 
     public static final String KEY_DESCRIPTION = "description";
     public static final String KEY_IMAGE = "image";
-    public static final String USER = "USER";
+    public static final String KEY_USER = "user";
 
 
     public String getDescription() {
@@ -26,5 +27,13 @@ public class post extends ParseObject {
 
     public void setImage(ParseFile parseFile){
         put(KEY_IMAGE, parseFile);
+    }
+
+    public ParseUser getUser(){
+        return getParseUser(KEY_USER);
+    }
+
+    public void setUser(ParseUser user){
+        put(KEY_USER, user);
     }
 }
